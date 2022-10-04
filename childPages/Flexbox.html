@@ -25,13 +25,31 @@
         <!-- Already specified in the charset above-->
 
         <style>
-            * {}
-            div {}
-            .header {}
-            .menu {}
-            .main {}
-            .aside {}
-            .footer {}
+            * {
+                box-sizing: border-box;
+            }
+            .header {
+                border: 1px solid rgb(191, 179, 245);
+                padding: 15px;
+                width: 25%;
+            }
+            .menu {
+                width: 25%;
+                float: left;
+                padding: 15px;
+                border: 1px solid rgb(195, 152, 251);
+                margin-bottom: auto;
+            }
+            .main {
+                width: 50%;
+                float: left;
+                padding: 15px;
+                border: 1px solid rgb(187, 152, 251);
+                margin-bottom: auto;
+            }
+                .footer {
+
+            }
         </style>
 
         <!-- Cyber Security Note about JavaScript in Browsers-->
@@ -40,12 +58,19 @@
 
     </head>
     <body>
-        <header>Flexbox</header>
-        <nav></nav> 
-        <aside></aside>
-        <main></main>
-        <section></section>
-        <article></article>
+        <div><header class="header" Flexbox><h1>Flexbox Lesson</h1></header></div>
+        <div><nav class="menu" Flexbox><h1>Turn left at the nearest turn then take a u turn at the next intersection, you have arrived at your destination</h1></nav></div>
+        <div><main class="main" Flexbox><h1>Main Space</h1></main></div>
+        <div>
+            <aside class="menu" Flexbox>
+                <a>
+                    This is the To the left right up down "find me at the aside space" space
+                    <br><br><br>
+                </a>
+            </aside>
+        </div>
+        <section>Move it up down 2 left stomps and a crisscross, cha cha real smooth</section>
+        <article>10 found dead in Detroit.... Classic</article>
         <footer></footer>
     </body>
     <footer>
