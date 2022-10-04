@@ -1,5 +1,7 @@
 body {
-    background-color: #ABEBC6
+    min-height: 100vh;
+    background-color: #ABEBC6;
+    margin-bottom: 75px;
   }
   
   h1 {
@@ -39,4 +41,17 @@ body {
   html {
     color: rgb(63, 113, 179);
     font-family: Comic Sans MS;
+  }
+
+  footer {
+    position:fixed;
+    min-height:auto;
+    width: 100%;
+    background-color: rgb(21, 167, 118);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: darkgreen;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
   }
